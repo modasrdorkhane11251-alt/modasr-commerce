@@ -1,0 +1,61 @@
+export const en = {
+  common: {
+    welcome: 'Welcome to MODASR Commerce',
+    loading: 'Loading...',
+    error: 'Error',
+    success: 'Success',
+    cancel: 'Cancel',
+    save: 'Save',
+    delete: 'Delete',
+    edit: 'Edit',
+    back: 'Back',
+  },
+  auth: {
+    login: 'Login',
+    register: 'Register',
+    logout: 'Logout',
+    email: 'Email',
+    password: 'Password',
+    username: 'Username',
+    forgotPassword: 'Forgot Password?',
+  },
+  nav: {
+    home: 'Home',
+    products: 'Products',
+    orders: 'Orders',
+    wallet: 'Wallet',
+    profile: 'Profile',
+    admin: 'Admin',
+  },
+}
+
+export const fa = {
+  common: {
+    welcome: 'خوش آمدید به MODASR Commerce',
+    loading: 'در حال بارگذاری...',
+    error: 'خطا',
+    success: 'موفق',
+    cancel: 'انصراف',
+    save: 'ذخیره',
+    delete: 'حذف',
+    edit: 'ویرایش',
+    back: 'بازگشت',
+  },
+  auth: {
+    login: 'ورود',
+    register: 'ثبت نام',
+    logout: 'خروج',
+    email: 'ایمیل',
+    password: 'رمز عبور',
+    username: 'نام کاربری',
+    forgotPassword: 'فراموشی رمز عبور؟',
+  },
+  nav: {
+    home: 'خانه',
+    products: 'محصولات',
+    orders: 'سفارشات',
+    wallet: 'کیف پول',
+    profile: 'پروفایل',
+    admin: 'مدیریت',
+  },
+}
