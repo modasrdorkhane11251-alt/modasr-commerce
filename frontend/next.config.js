@@ -1,14 +1,10 @@
-import type { Config } from 'next'
-
-const config: Config = {
+/** @type {import('next').NextConfig} */
+const config = {
   reactStrictMode: true,
   images: {
     domains: ['modasr.top', 'localhost'],
   },
-  i18n: {
-    locales: ['en', 'fa'],
-    defaultLocale: 'en',
-  },
+  allowedDevOrigins: ['3000-' + process.env.BASE44_PUBLIC_HOST_SUFFIX],
 }
 
-export default config
+module.exports = config
